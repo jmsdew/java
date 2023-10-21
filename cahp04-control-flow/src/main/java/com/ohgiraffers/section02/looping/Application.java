@@ -20,7 +20,7 @@ public class Application {
     //    int num = scanner.nextInt();
 
         System.out.println("1단부터 입력 단 까지 구구단을 출력하는 프로그램 입니다.");
-        System.out.println("출력을 원하는 단을 입력 해주세요 : ");
+//        System.out.println("출력을 원하는 단을 입력 해주세요 : ");
         b.gugudan2();
     }
 }

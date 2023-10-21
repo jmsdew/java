@@ -65,16 +65,20 @@ public class B_while {
         Scanner scanner = new Scanner(System.in);
         int want = 0;
         do{
+            System.out.print("수 입력 : ");  // do 안에서 입력받기
             want = scanner.nextInt();
             for(int i = 1; i <= want; i++){
                 for(int o = 1; o < 10; o++){
                     if(i%2 == 0){
                         continue;
                     }
+                    if(i >= 10){
+ //                   break;  // 작동은 되지만 여기서 작동 중단
+                    }
                     System.out.println(i + " x " + o + " = " + (i*o));
                 }
-            }break;
-        }while(want < 10);
+            }
+        }while(false); //while 이 false 가 되어야 작동이 중단됨
 
 
     }
