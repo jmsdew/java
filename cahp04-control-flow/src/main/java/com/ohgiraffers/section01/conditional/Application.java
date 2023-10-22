@@ -1,5 +1,7 @@
 package main.java.com.ohgiraffers.section01.conditional;
 
+import java.util.Scanner;
+
 public class Application {
 
     public static void main(String[] args){
@@ -12,10 +14,18 @@ public class Application {
 
    //      app2.testNestedIfEleseIfStatement();
 
-         D_switch app3 = new D_switch();
+     /*    D_switch app3 = new D_switch();
          String result = app3.testSwitchVendingMachine();
-        System.out.println(result);
+        System.out.println(result);*/
 
+
+        Scanner scr = new Scanner(System.in);
+        int first = scr.nextInt();
+
+
+            for(int i=1; i<=9; i++){
+                System.out.println(first + "*" + i +" = " + (first*i));
+            }
 
 
 
