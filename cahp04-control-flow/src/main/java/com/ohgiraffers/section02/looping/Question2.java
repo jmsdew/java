@@ -2,7 +2,7 @@ package main.java.com.ohgiraffers.section02.looping;
 
 import java.util.Scanner;
 
-public class question2 {
+public class Question2 {
 
     public static void main(String[] args){
 
