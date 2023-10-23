@@ -13,11 +13,11 @@ public class Application04 {
         * 그러나 다른 정렬에 비해 정렬 속도가 느리며 역순으로 졍렬할 때 가장 느린 속도를 가진다.
         * */
 
-        int[] arr = {2,6,4,5,1,3};
+        int[] arr = {2, 6, 4, 5, 1, 3};
         int temp;
         Arrays.sort(arr);
-        for (int x:arr) {
-            System.out.print(x + " ");
+        for (int x : arr) {
+            System.out.println(x + " ");
         }
 
         for (int i = arr.length-1; i >= 0; i--) {
