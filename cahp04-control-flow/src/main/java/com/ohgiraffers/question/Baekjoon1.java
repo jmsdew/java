@@ -1,4 +1,4 @@
-package main.java.com.ohgiraffers.section02.looping;
+package main.java.com.ohgiraffers.question;
 import java.util.Scanner;
 public class Baekjoon1 {
 
