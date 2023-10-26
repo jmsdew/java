@@ -14,7 +14,11 @@ public class KindsOfVariable {
     private int globalNum;
 
     // static field를 정적필드(클래스 변수)라고 한다. 정적(클래스) 영역에 생성되는 변수라는 의미이다.
+    private int num;
     private static int staticNum;
+
+
+
     private void testMethod(int num){
         /*
         * 메소드 영역에서 작성하는 변수를 지역변수라고 한다.

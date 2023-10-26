@@ -49,6 +49,13 @@ public class Product {
         Product.brand = brand;
     }
 
-
+    @Override  ///  toString 을 클릭해서 수정하자!    toString이 string을 만나면 메소드를 재 정의해서 출력한다.
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", brand=" + brand +
+                '}';
+    }
 
 }

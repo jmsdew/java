@@ -18,6 +18,7 @@ public class Application {
         System.out.println("인자로 전달하는  r1의 값 : " + r1);
         r1.calcRound();
         r1.calcArea();
+
         pt.testClassTypeParameter(r1);
 //        System.out.println("변경 후 사각형의 넓이와 둘레 : " );
 //        r1.calcRound();
