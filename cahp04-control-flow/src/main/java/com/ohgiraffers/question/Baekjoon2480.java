@@ -2,7 +2,7 @@ package main.java.com.ohgiraffers.question;
 
 import java.util.Scanner;
 
-public class Baekjoon_2480 {
+public class Baekjoon2480 {
     public static void main(String[] args){
 
 

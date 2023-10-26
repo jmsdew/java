@@ -1,8 +1,8 @@
-package main.java.com.ogiraffers.question;
+package main.java.com.ohgiraffers.question;
 
 import java.util.Scanner;
 
-public class Questtion1 {
+public class Questtion4 {
     public static void main(String[] args){
 
         ///  문제 1 번

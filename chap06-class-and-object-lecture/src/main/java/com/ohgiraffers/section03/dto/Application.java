@@ -18,6 +18,9 @@ public class Application {
         MemberDTO member = new MemberDTO();
         member.setName("홍길동");  //set 으로 받고 get으로 출력
         System.out.println("member의 이름은 " +member.getName());
+        member.setAge(20);
+        System.out.println("member의 나이는 " +member.getAge());
+
 
         /*
         * 캡슐화 원칙에 따라 작성을 하였으나 캡슐화의 의미가 없을 정도로

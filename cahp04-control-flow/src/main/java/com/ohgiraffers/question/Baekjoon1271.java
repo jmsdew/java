@@ -3,7 +3,7 @@ package main.java.com.ohgiraffers.question;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class Baekjoon_1271 {
+public class Baekjoon1271 {
     public static void main(String[] args){
 //        갑부 최백준 조교는 동전을 최소로 바꾸는데 성공했으나 김재홍 조교가 그 돈을 발견해서 최백준 조교에게 그 돈을 나누자고 따진다.
 //

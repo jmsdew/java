@@ -14,7 +14,8 @@ public class Application05 {
         int shapesNumber = (int)(Math.random() * shapes.length);
         int chNumber = (int)(Math.random() * chardNumber.length);
         System.out.println(shapes[shapesNumber]+ chardNumber[chNumber]);
-
+        // math.random을 이용해 랜덤으로 숫자를 출력하고 shapes.length만큼 범위를 지정해 준다.
+        // 그 다음 shapes[]로 감싸 shape 배열 중 랜덤 숫자 코드 하나를 출력하도록 한다.
 
 
 

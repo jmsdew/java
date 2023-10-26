@@ -28,6 +28,6 @@ public class Application03 {
         int[] iarr2 = {10,20,30,40,50};
 
         String[] sarray =  {"안녕", "hi", "니하오"};
-        System.out.println(sarray);
+        System.out.println(sarray[1]);
     }
 }

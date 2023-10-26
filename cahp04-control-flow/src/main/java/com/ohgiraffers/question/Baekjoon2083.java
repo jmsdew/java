@@ -2,7 +2,7 @@ package main.java.com.ohgiraffers.question;
 
 import java.util.Scanner;
 
-public class Baekjoon_2083 {
+public class Baekjoon2083 {
     public static void main(String[] args) {
 
 //        올 골드 럭비 클럽의 회원들은 성인부 또는 청소년부로 분류된다.
