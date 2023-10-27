@@ -27,7 +27,8 @@ public class Gacha {
         System.out.println("1층 : " + firstS);
         if (firstS == "성공") {
             System.out.println(" 2층 : " + seconS);
-        }if (seconS == "성공" && firstS == "성공") {
+        }else {System.out.println("1단계부터 실패하면 가챠는 하지 맙시다.");}
+        if (seconS == "성공" && firstS == "성공") {
             System.out.println(" 3층 : " + thirdS);
         }if (thirdS == "성공" && seconS == "성공" && firstS == "성공") {
             System.out.println(" 4층 : " + fourtS);
