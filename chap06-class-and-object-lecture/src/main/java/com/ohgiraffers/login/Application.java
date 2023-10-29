@@ -17,8 +17,8 @@ public class Application {
             int no = scr.nextInt();
 
             switch (no){
-                case 1 : login.makeId(); break;
-                case 2 : login.loginNumber();; break;
+                case 1 : login.loginNumber(); break;
+                case 2 : login.makeId();; break;
                 case 3 :
                     System.out.println("프로그램을 종료합니다"); return;
                 default:
