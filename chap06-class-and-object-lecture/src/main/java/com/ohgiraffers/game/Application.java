@@ -7,7 +7,7 @@ public class Application {
     public static void main(String[] args){
 
         Scanner scr = new Scanner(System.in);
-        People people = new People();
+        People1 people = new People1();
         Random random = new Random();
 
         int[] second = new int[]{5,20};

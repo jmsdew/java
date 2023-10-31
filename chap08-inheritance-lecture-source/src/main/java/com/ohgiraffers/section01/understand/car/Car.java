@@ -11,10 +11,15 @@ public class Car {
     // 현대차
     private final String brand;
     private int price;
-
-    public Car(String brand, int price){
+    private String name;
+    public Car(String brand, int price, String name){
         this.brand = brand;
         this.price = price;
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public double getPrice(){

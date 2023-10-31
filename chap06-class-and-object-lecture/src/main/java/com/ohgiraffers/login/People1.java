@@ -1,6 +1,6 @@
-package main.java.com.ohgiraffers.game;
+package main.java.com.ohgiraffers.login;
 
-public class People {
+public class People1 {
 
     private final Mountain mountain = new Mountain();
 

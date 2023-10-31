@@ -10,22 +10,15 @@ package main.java.com.ohgiraffers.section01.understand.car;
 * */
 public class ElectricCar extends Car {
 
-    private String carName;
+
 
     private String energy;
     public ElectricCar(String brand, int price, String carName, String energy) {
-        super(brand, price);
-        this.carName = carName;
+        super(brand, price, carName);
+
         this.energy = energy;
     }
 
-    public String getCarName() {
-        return carName;
-    }
-
-    public void setCarName(String carName) {
-        this.carName = carName;
-    }
 
     public String getEnergy() {
         return energy;
@@ -51,7 +44,7 @@ public class ElectricCar extends Car {
     @Override
     public String toString() {
         return "ElectricCar{" +
-                "carName='" + carName + '\'' +
+                "carName='" + super.getName() + '\'' +
                 ", energy='" + energy + '\'' +
                 '}';
     }

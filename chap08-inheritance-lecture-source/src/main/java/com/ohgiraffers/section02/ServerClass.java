@@ -28,7 +28,7 @@ public class ServerClass extends SuperClass {
     // 4. private 접근자는 자신만 접근할 수 있기 때문에 오류
 /*
     @Override
-    public voud privateMethod(){}
+    public void privateMethod(){}
 */
     // 5. final 메소드의 경우 한번 정의된 후 변경이 불가능하다.
 /*    @Override

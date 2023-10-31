@@ -6,6 +6,7 @@ public class Application {
     public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
         LoginService loginService = new LoginService();
+        Player player = new Player();
 
 
         while (true) {
@@ -18,6 +19,7 @@ public class Application {
             switch (no) {
                 case 1:
                     loginService.login();
+                    player.playerG();
                     return;
                 case 2:
                     loginService.signUp();

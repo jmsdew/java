@@ -25,8 +25,8 @@ public class Seller {
             // 단지 해당 형에서 사용할 수 있는 기능만 사용할 수 있으며 그 외적인 기능은 쓰지 못하는 상태가 되는 것이다.
             // 이를 통해 다형성의 이점을 누릴 수 있게 된다.
             if(car instanceof ElectricCar){ // heap에 생성된 car의 자료형이 ElectricCar와 같은지 비교
-                ElectricCar electricCar = (ElectricCar) car;     // 형변환
-                System.out.println(electricCar.getBrand() + "사의 " + electricCar.getCarName() + " 를 판매하였습니다.");
+                ElectricCar electricCar = (ElectricCar) car;     // car 자료형으로 변환해 매개변수로 받았던 electriccar를 다시 형변환하여 car 자료형에선 쓸 수 없던 필드를 쓸 수 있음
+                System.out.println(electricCar.getBrand() + "사의 " + electricCar.getName() + " 를 판매하였습니다.");
                 result += (int)electricCar.getPrice();
             }else{
                 OldCar oldCar = (OldCar) car;

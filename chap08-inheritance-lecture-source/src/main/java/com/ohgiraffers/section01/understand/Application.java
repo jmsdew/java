@@ -39,7 +39,7 @@ public class Application {
 /*        Car car2 = kona;
         System.out.println(kona.hashCode());
         System.out.println(car2.hashCode());
-        System.out.println("형 변환 후 다시 형 변환");    // 같은 주소값을 가지는 지 테스ㅡㅌ
+        System.out.println("형 변환 후 다시 형 변환");    // 같은 주소값을 가지는 지 테스트
         kona = (ElectricCar) car2;
         System.out.println(kona.hashCode());
         System.out.println(car2.hashCode());*/
