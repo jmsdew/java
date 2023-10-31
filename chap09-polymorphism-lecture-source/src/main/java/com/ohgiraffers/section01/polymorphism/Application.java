@@ -79,7 +79,9 @@ public class Application {
         
         Animal animal3 = (Animal) new Rabbit();  // up-case 명시적 형변환
         Animal animal4 = new Rabbit(); // 묵시적 형변환
- //       Rabbit rabbit1 = (Rabbit) new Animal();  // down-casting  명시적 형 변환
+//        Rabbit rabbit1 = (Rabbit) new Animal();  // down-casting  명시적 형 변환
 //        Rabbit rabbit2 = new Animal();  // 묵시적 형변환이나 에러
+
+        Rabbit rabbit2 = (Rabbit)animal4;   // up-casting  된 클래스를 낮출 때만 사용 되지 않았을때는 컴파일에러
     }
 }
