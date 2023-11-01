@@ -10,10 +10,7 @@ public class NaverAuth implements SnsAuth{
         }else {return false;}
     }
 
-    @Override
-    public void info() {
 
-    }
 
     MemberDTO memberDTO1 = new MemberDTO("naver","naver");
 }

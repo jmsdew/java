@@ -10,9 +10,6 @@ public class KakaoAuth implements SnsAuth{
         }else {return false;}
     }
 
-    @Override
-    public void info() {
 
-    }
     MemberDTO memberDTO1 = new MemberDTO("kakao","kakao");
 }

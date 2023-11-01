@@ -1,6 +1,7 @@
 package main.java.com.ohgiraffers.login;
 
 import main.java.com.ohgiraffers.login.dto.MemberDTO;
+import main.java.com.ohgiraffers.login.program.Program;
 import main.java.com.ohgiraffers.login.service.MemberService;
 
 import java.util.Scanner;

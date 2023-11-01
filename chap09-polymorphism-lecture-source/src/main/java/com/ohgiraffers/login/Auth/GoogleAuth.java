@@ -11,10 +11,7 @@ public class GoogleAuth implements SnsAuth{
         }else {return false;}
     }
 
-    @Override
-    public void info() {
 
-    }
 
 
     MemberDTO memberDTO1 = new MemberDTO("google","google");
