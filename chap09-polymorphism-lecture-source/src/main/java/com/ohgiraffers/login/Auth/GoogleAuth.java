@@ -16,3 +16,7 @@ public class GoogleAuth implements SnsAuth{
 
     MemberDTO memberDTO1 = new MemberDTO("google","google");
 }
+
+
+
+
