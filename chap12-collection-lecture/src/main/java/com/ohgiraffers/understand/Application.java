@@ -40,7 +40,7 @@ public class Application {
         lotto1.add(39);
 
         hmap.put(0+"번 로또", lotto1);
-        while (true) {
+        while (true)
             while (true) {
                 System.out.println("=====로또 판매 프로그램 입니다.======");
                 System.out.println("구매할 로또 갯수를 입력 해주세요 (10개 미만)");

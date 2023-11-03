@@ -27,7 +27,7 @@ public class App {
         String[] value = scr.nextLine().split(" ");
         for (int i = 0; i < members.size(); i++) {
             String result = value[i];
-            members.get(i).setType();
+//            members.get(i).setType();
         }
 
     }
