@@ -24,10 +24,22 @@ public class App {
         members.add(new MemberDTO("최씨", 50));
 
         Scanner scr = new Scanner(System.in);
+
+        MemberDTO memberDTO = new MemberDTO();
+
         String[] value = scr.nextLine().split(" ");
         for (int i = 0; i < members.size(); i++) {
             String result = value[i];
-//            members.get(i).setType();
+            members.get(i).setType(Htype.valueOf(value[i]));
+        }
+
+
+
+
+        Kiyu kiyu =new Kiyu();
+        for (int i = 0; i < members.size(); i++) {
+            if(memberDTO.getType().equals(value))
+            kiyu.setHp(Htype.감량.getDamage());
         }
 
     }

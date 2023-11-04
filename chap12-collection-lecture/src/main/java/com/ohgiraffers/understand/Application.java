@@ -32,14 +32,14 @@ public class Application {
         Scanner scr = new Scanner(System.in);
         HashMap<String, Set<Integer>> hmap = new HashMap();
         Set<Integer> lotto1 = new TreeSet<>();
-        lotto1.add(7);
+/*        lotto1.add(7);
         lotto1.add(8);
         lotto1.add(15);
         lotto1.add(34);
         lotto1.add(38);
         lotto1.add(39);
 
-        hmap.put(0+"번 로또", lotto1);
+        hmap.put(0 + "번 로또", lotto1);*/
         while (true)
             while (true) {
                 System.out.println("=====로또 판매 프로그램 입니다.======");
@@ -55,69 +55,57 @@ public class Application {
 
                 if (a <= 10) {
 
-
-
                     for (int i = 1; i <= a; i++) {
 
                         Set<Integer> lotto = new TreeSet<>();
                         while (lotto.size() < 6) {
                             lotto.add((int) (Math.random() * 45) + 1);
                         }
-
                         hmap.put((b + "번 로또"), lotto);
                         b++;
-
-
-
-
                     }
-
-                   Iterator<String> iter = hmap.keySet().iterator();
+                    Iterator<String> iter = hmap.keySet().iterator();
 
                     for (Map.Entry<String, Set<Integer>> entry : hmap.entrySet()) {   //entry - key와 value를 한번에 받아올 수 있음
                         String key = entry.getKey();
                         Set<Integer> value = entry.getValue();
                         System.out.println(key + ": " + value);
-
-
-
-
-
                     }
+                    Iterator valueIter = hmap.entrySet().iterator();
+
 
                     if (count == 10) {
-                        for (Map.Entry<String, Set<Integer>> entry : hmap.entrySet()){
+                        for (Map.Entry<String, Set<Integer>> entry : hmap.entrySet()) {
                             String key = entry.getKey();
                             Set<Integer> value = entry.getValue();
+                            System.out.println("code 2: " + value.hashCode());
+                            System.out.println("code 1 : " + lotto1.hashCode());
 
-                            if(value.equals(lotto1)){
-                                System.out.println("=========당첨 결과 출력============");
-                                System.out.println("행운 번호 : " + lotto1);
-                                System.out.println("당첨 로또 번호는  " + key + " 입니다 축하합니다.");
-                                return;
 
-                            } else if(hmap.isEmpty()){
+                            if(valueIter.hasNext()) {
+
+                                if (value.equals(lotto1)) {              //  주소값을 가지고 비교함. - 당첨번호가 랜덤으로 주어질 때 주소값 말고 값으로  비교하게 해야함.
+                                    System.out.println("=========당첨 결과 출력============");
+                                    System.out.println("행운 번호 : " + lotto1);
+                                    System.out.println("당첨 로또 번호는  " + key + " 입니다 축하합니다.");
+                                    return;
+
+
+                                }
+                                valueIter.next();
+                                 {
                                 System.out.println("당첨 번호는 없습니다.");
                             }
-
+                        }
+                            }
                         }
 
-
-
-
-
-
-
+                    } else {
+                        System.out.println("로또는 10개 이상 구매할 수 없습니다.");
+                        break;
                     }
 
-
-
-                } else {
-                    System.out.println("로또는 10개 이상 구매할 수 없습니다.");
-                    break;
                 }
-
             }
-        }
     }
-}
+
