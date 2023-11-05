@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Lotto2 {
 
-        private static int count = 1;
+        private static int count = 0;
 
         public static void main(String[] args) {
 
@@ -14,23 +14,20 @@ public class Lotto2 {
 
 
 
-            Set<Integer> lotto2 = new TreeSet<>();
+            Set<Integer> lotto1 = new TreeSet<>();
+            lotto1.add(11);
+            lotto1.add(22);
+            lotto1.add(9);
 
+            lotto1.add(26);
+            lotto1.add(35);
+            lotto1.add(40);
 
-            lotto2.add(9);
-            lotto2.add(11);
-            lotto2.add(22);
-            lotto2.add(26);
-            lotto2.add(35);
-            lotto2.add(40);
-
-            Set<Integer> lotto1 = new TreeSet<>(lotto2);
 
 
             System.out.println("-------------------------------");
 
             System.out.println(lotto1.hashCode());
-            System.out.println(lotto2.hashCode());
 
             System.out.println("-------------------------------");
 
@@ -40,13 +37,16 @@ public class Lotto2 {
                     System.out.println("구매하실 로또 수량을 입력 해주세요");
                     int no = scr.nextInt();
 
-                    hmap.put((1 + "번 로또"), lotto2);
 
-                    if (no + count <= 10) {
-                        if (no < 10) {
-                            Set<Integer> lotto = new TreeSet<>();
+
+                    if (no + count <= 100) {
+                        if (no < 100) {
+
 
                             for (int i = 1; i <= no; i++) {
+
+                                Set<Integer> lotto = new TreeSet<>();
+
                                 while (lotto.size() < 6) {
                                     lotto.add((int) (Math.random() * 45) + 1);
                                 }
@@ -63,7 +63,7 @@ public class Lotto2 {
                                 System.out.println(key + ": " + value);
                             }
 
-                            if(count == 10){
+                            if(count == 100){
                                 // 정답 구현 및 일치 확인
 
 /*                                for (int i = 1; i <= no; i++) {

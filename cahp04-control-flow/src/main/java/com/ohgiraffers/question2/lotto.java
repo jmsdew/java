@@ -21,10 +21,14 @@ public class lotto {
                 System.out.println("구매하실 로또 수량을 입력 해주세요");
                 int no = scr.nextInt();
 
-                if (no + count <= 10) {
-                    if (no < 10) {
-                        Set<Integer> lotto = new TreeSet<>();
+                if (no + count <= 100) {
+                    if (no < 100) {
+
+
                         for (int i = 1; i <= no; i++) {
+
+                            Set<Integer> lotto = new TreeSet<>();
+
                             while (lotto.size() < 6) {
                                 lotto.add((int) (Math.random() * 45) + 1);
                             }
@@ -41,7 +45,7 @@ public class lotto {
                             System.out.println(key + ": " + value);
                         }
 
-                        if(count == 10){
+                        if (count == 100) {
                             // 정답 구현 및 일치 확인
                             Set<Integer> lotto1 = new TreeSet<>();
                             for (int i = 1; i <= no; i++) {
@@ -55,34 +59,38 @@ public class lotto {
                             boolean isWinner = false;
                             for (Map.Entry<String, Set<Integer>> entry : hmap.entrySet()) {
                                 Set<Integer> purLotto = entry.getValue();
-                                if (purLotto.equals(lotto1)) {
-                                    System.out.println(entry.getKey() + "은(는) 당첨!");
+                                int match = 0;
+                                for (int num : purLotto) {
+                                    if (lotto1.contains(num)) {
+                                        match++;
+                                    }
+                                }
+                                if (match == 6) {
+                                    System.out.println(entry.getKey() + " 1등 당첨!");
                                     isWinner = true;
+                                } else if (match >= 2) {
+                                    System.out.println(entry.getKey() + " 2등 당첨!");
+                                    isWinner = true;
+                                }
+                                if (!isWinner) {
+                                    System.out.println("이번 회차는 당첨 없음");
                                     return;
                                 }
-                            }
-                            if (!isWinner) {
-                                System.out.println("이번 회차는 당첨 없음");
-                                return;
+
                             }
 
+
+                        } else {
+                            System.out.println("10개 이상은 구매하실 수 없습니다.");
+                            break;
                         }
-
-
                     } else {
-                        System.out.println("10개 이상은 구매하실 수 없습니다.");
+                        System.out.println("이번 회차 구매가능 수량은 " + (10 - count) + "개 입니다.");
                         break;
                     }
-                } else {
-                    System.out.println("이번 회차 구매가능 수량은 " + (10 - count) + "개 입니다.");
-                    break;
+
+
                 }
-
-
-
-
-
-
             }
         }
     }
