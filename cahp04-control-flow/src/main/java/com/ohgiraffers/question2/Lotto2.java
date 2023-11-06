@@ -23,6 +23,8 @@ public class Lotto2 {
             lotto1.add(35);
             lotto1.add(40);
 
+            Iterator<Integer> iter1 = lotto1.iterator();
+
 
 
             System.out.println("-------------------------------");
@@ -79,15 +81,26 @@ public class Lotto2 {
                                 boolean isWinner = false;
                                 for (Map.Entry<String, Set<Integer>> entry : hmap.entrySet()) {
                                     Set<Integer> purLotto = entry.getValue();
-                                    if (purLotto.equals(lotto1)) {
-                                        System.out.println(entry.getKey() + "는 당첨!");
+                                    int match = 0;
+                                    for (int num : purLotto) {
+                                            while(iter1.hasNext()){
+                                                iter1.next().equals(num);
+                                                match++;
+                                            }
+
+                                    }
+                                    if (match == 6) {
+                                        System.out.println(entry.getKey() + " 1등 당첨!");
                                         isWinner = true;
+                                    } else if (match >= 2) {
+                                        System.out.println(entry.getKey() + " 2등 당첨!");
+                                        isWinner = true;
+                                    }
+                                    if (!isWinner) {
+                                        System.out.println("이번 회차는 당첨 없음");
                                         return;
                                     }
-                                }
-                                if (!isWinner) {
-                                    System.out.println("이번 회차는 당첨 없음");
-                                    return;
+
                                 }
 
                             }
