@@ -4,7 +4,7 @@ public class Application1 {
     public static void main(String[] args){
 
         /*
-        * chatAt() : 해당 문자열의 특정 인덱스에서 해당하는 문자를 반환한다.
+        * charAt() : 해당 문자열의 특정 인덱스에서 해당하는 문자를 반환한다.
         * 인덱스는 0부터 시작하는 숫자 체계이며
         * 인덱스를 벗어난 경우 IndexOutofBoundException이 발생한다.
         *

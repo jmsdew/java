@@ -296,6 +296,7 @@ HashSet<String> hset = new HashSet<>();   // 하지만 이렇게 하는게 일�
 # MAP
 
 
+
 - key와 value를 하나의 쌍으로 저장하는 방식을 사용한다.
 
 1. key
