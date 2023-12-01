@@ -5,50 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc87fde-3c1b-435d-86ee-c00ef93ac29f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon10171.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon10988.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon1152.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon1271.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon1357.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon1874.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon1966.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon2083.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon2444.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon2480.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon2588.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon2720.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon2741.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon2743.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon2752.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon2754.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon27866.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon2839.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon3046.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon5532.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question/Baekjoon9086.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjon2010.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon10101.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon10807.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon10871.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon10951.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon10952.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon10989.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon11179.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon11382.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon11718.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon11720.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon1966.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon2441.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon2442.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon25206.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon25304.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon25314.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon2751.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon2851.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon2908.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon2953.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cahp04-control-flow/src/main/java/com/ohgiraffers/question2/Baekjoon3003.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +30,23 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2YpI4GeQpQ0R8tgd4PHriCp8q6D" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -93,9 +61,58 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Baekjoon1712">
+    <configuration name="Baekjoon1712" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.bronze.bronze2.Baekjoon1712" />
+      <module name="chap00-baekjoon.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.bronze.bronze2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Baekjoon5532" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.bronze.bronze4.Baekjoon5532" />
+      <module name="chap00-baekjoon.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.bronze.bronze4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Baekjoon5596" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.bronze.bronze4.Baekjoon5596" />
+      <module name="chap00-baekjoon.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.bronze.bronze4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Baekjoon1712" />
+        <item itemvalue="Application.Baekjoon5596" />
+        <item itemvalue="Application.Baekjoon5532" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -105,6 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701215900492</updated>
       <workItem from="1701215901523" duration="958000" />
+      <workItem from="1701417318171" duration="1935000" />
     </task>
     <servers />
   </component>
