@@ -1,4 +1,4 @@
-package com.ohgiraffers.silver;
+package com.ohgiraffers.silver.silver2;
 
 import java.util.ArrayList;
 import java.util.Scanner;

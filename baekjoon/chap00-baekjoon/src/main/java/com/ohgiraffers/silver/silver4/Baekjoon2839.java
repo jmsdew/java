@@ -1,4 +1,4 @@
-package com.ohgiraffers.silver;
+package com.ohgiraffers.silver.silver4;
 
 import java.util.Scanner;
 
