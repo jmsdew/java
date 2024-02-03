@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc87fde-3c1b-435d-86ee-c00ef93ac29f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,39 +66,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Baekjoon1764">
-    <configuration name="Baekjoon12865" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.Baekjoon12865" />
-      <module name="chap00-baekjoon.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Baekjoon1427" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.silver.silver5.Baekjoon1427" />
-      <module name="chap00-baekjoon.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.silver.silver5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Baekjoon14425" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.silver.silver4.Baekjoon14425" />
+  <component name="RunManager" selected="Application.Baekjoon2470">
+    <configuration name="Backjoon1269" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.silver.silver4.Backjoon1269" />
       <module name="chap00-baekjoon.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ohgiraffers.silver.silver4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Baekjoon11659" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.silver.silver3.Baekjoon11659" />
+      <module name="chap00-baekjoon.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.silver.silver3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Baekjoon24267" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.bronze.bronze2.Baekjoon24267" />
+    <configuration name="Baekjoon2470" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.gold.gold5.Baekjoon2470" />
       <module name="chap00-baekjoon.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.bronze.bronze2.*" />
+          <option name="PATTERN" value="com.ohgiraffers.gold.gold5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Baekjoon3273" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.silver.silver3.Baekjoon3273" />
+      <module name="chap00-baekjoon.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.silver.silver3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Baekjoon2470" />
+        <item itemvalue="Application.Baekjoon3273" />
+        <item itemvalue="Application.Baekjoon11659" />
+        <item itemvalue="Application.Backjoon1269" />
         <item itemvalue="Application.Baekjoon1764" />
-        <item itemvalue="Application.Baekjoon14425" />
-        <item itemvalue="Application.Baekjoon12865" />
-        <item itemvalue="Application.Baekjoon1427" />
-        <item itemvalue="Application.Baekjoon24267" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +169,19 @@
       <workItem from="1705309498113" duration="908000" />
       <workItem from="1705392856121" duration="3950000" />
       <workItem from="1705580040643" duration="1170000" />
+      <workItem from="1705754090381" duration="112000" />
+      <workItem from="1705842755716" duration="7000" />
+      <workItem from="1705905011014" duration="653000" />
+      <workItem from="1705979535007" duration="196000" />
+      <workItem from="1705993812087" duration="26000" />
+      <workItem from="1705993848922" duration="9000" />
+      <workItem from="1706076484830" duration="1620000" />
+      <workItem from="1706145068919" duration="8000" />
+      <workItem from="1706573146822" duration="3533000" />
+      <workItem from="1706603710342" duration="1010000" />
+      <workItem from="1706658295445" duration="3216000" />
+      <workItem from="1706744851580" duration="2067000" />
+      <workItem from="1706831245223" duration="1518000" />
     </task>
     <servers />
   </component>
